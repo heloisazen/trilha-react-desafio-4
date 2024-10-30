@@ -1,5 +1,5 @@
 export interface IButtonProps {
     title: string;
-    disabled: boolean;
+    isValid: boolean;
     onClick?: React.MouseEventHandler<HTMLButtonElement>;
 }
